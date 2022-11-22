@@ -1,3 +1,3 @@
-# Tech Store
+# Miles
 
-Este es un projecto ecommerce, el cual trata de una tienda de articulos tecnologicos.
+Este es un projecto ecommerce, el cual trata de una tienda de indumentaria y articulos deportivos.
