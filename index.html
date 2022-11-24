@@ -4,41 +4,263 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Miles | Running Store</title>
+    <title>Home | Miles Running Store</title>
+    <link rel="icon" href="images/favicon.png" />
     <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/2b797eb4a6.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <div class="container">
-      <div class="navbar">
-        <div class="logo">
-          <img src="/images/miles-04.svg" alt="Web Logo" />
+    <div class="header">
+      <div class="container">
+        <div class="navbar">
+          <div class="logo">
+            <img src="images/logo.png" alt="Miles Logo" width="125px" />
+          </div>
+          <nav>
+            <ul>
+              <li><a href="index.html">Inicio</a></li>
+              <li><a href="productos.html">Productos</a></li>
+              <li><a href="nosotros.html">Nosotros</a></li>
+              <li><a href="contacto.html">Contacto</a></li>
+              <li><a href="cuenta.html">Cuenta</a></li>
+            </ul>
+          </nav>
+          <img src="images/carrito-de-compras.png" alt="Carrito" width="25px" />
         </div>
-        <nav>
-          <ul>
-            <li><a href="">Inicio</a></li>
-            <li><a href="">Productos</a></li>
-            <li><a href="">Nosotros</a></li>
-            <li><a href="">Contacto</a></li>
-            <li><a href="">Cuenta</a></li>
-          </ul>
-        </nav>
+        <div class="row">
+          <div class="col-2">
+            <h1>Eres corredor?<br />Todo en un solo lugar</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br />
+              Accusamus doloremque necessitatibus voluptatibus, assumenda
+              delectus repellat voluptatum fugiat cum distinctio ex!
+            </p>
+            <a href="" class="btn">Nuestros Productos</a>
+          </div>
+          <div class="col-2">
+            <img src="images/runner.png" alt="Runner Image" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Galeria -->
+    <div class="galeria">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-3">
+            <div class="image">
+              <img
+                class="image-img"
+                src="images/woman-running.png"
+                alt="Nike Image"
+              />
+              <div class="image-overlay">
+                <div class="image-title">Indumentaria</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="image">
+              <img class="image-img" src="images/nike.png" alt="Puma Image" />
+              <div class="image-overlay">
+                <div class="image-title">Calzado</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="image">
+              <img
+                class="image-img"
+                src="images/accesorios.png"
+                alt="Adidas Image"
+              />
+              <div class="image-overlay">
+                <div class="image-title">Accesorios</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Productos Destacados -->
+    <div class="small-container">
+      <h2 class="titulo">Productos Destacados</h2>
+      <div class="row">
+        <div class="col-4">
+          <img src="images/campera-adidas01.jpg" alt="" />
+          <h4>Adidas Run Fast Flower</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-sharp fa-solid fa-star-half-stroke"></i>
+          </div>
+          <p class="precio">$26.999</p>
+        </div>
+        <div class="col-4">
+          <img src="images/ultraboost.jpg" alt="" />
+          <h4>Adidas Ultraboost 22</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-sharp fa-solid fa-star-half-stroke"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <p class="precio">$67.199</p>
+        </div>
+        <div class="col-4">
+          <img src="images/short-nike.jpg" alt="" />
+          <h4>Short Nike Run Division</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-sharp fa-solid fa-star-half-stroke"></i>
+          </div>
+          <p class="precio">$15.499</p>
+        </div>
+        <div class="col-4">
+          <img src="images/vaporfly.jpg" alt="" />
+          <h4>Nike ZoomX Vaporfly Next</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p class="precio">$97.499</p>
+        </div>
+      </div>
+      <!-- Nuevos Lanzamientos -->
+      <h2 class="titulo">Nuevos Lanzamientos</h2>
+      <div class="row">
+        <div class="col-4">
+          <img src="images/nike-infinity.jpg" alt="" />
+          <h4>Nike React Infinity Run 2</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-sharp fa-solid fa-star-half-stroke"></i>
+          </div>
+          <p class="precio">$47.699</p>
+        </div>
+        <div class="col-4">
+          <img src="images/lotto-pantalon.jpg" alt="" />
+          <h4>Lotto Speed Run</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-sharp fa-solid fa-star-half-stroke"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <p class="precio">$7.999</p>
+        </div>
+        <div class="col-4">
+          <img src="images/garmin.jpg" alt="" />
+          <h4>Garmin Forerunner 245</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-sharp fa-solid fa-star-half-stroke"></i>
+          </div>
+          <p class="precio">$97.999</p>
+        </div>
+        <div class="col-4">
+          <img src="images/remera-puma.jpg" alt="" />
+          <h4>Puma Favorite Heather</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p class="precio">$6.999</p>
+        </div>
       </div>
       <div class="row">
-        <div class="col-2">
-          <h1>
-            Disfruta tu entrenamiento <br />
-            El mejor estilo!
-          </h1>
-          <br />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi,
-            consectetur ducimus expedita labore quidem deserunt, ipsum quae
-            possimus dolor error maxime, inventore recusandae?<br />
-            Beatae animi aperiam sit inventore hic quam!
-          </p>
+        <div class="col-4">
+          <img src="images/campera-adidas.jpg" alt="" />
+          <h4>Adidas Marathon 3 Stripes</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-sharp fa-solid fa-star-half-stroke"></i>
+          </div>
+          <p class="precio">$19.199</p>
         </div>
-        <div class="col-2">
-          <img src="images/runner.png" alt="Pexels Image" />
+        <div class="col-4">
+          <img src="images/velocity.jpg" alt="" />
+          <h4>Puma Velocity Nitro 2</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-sharp fa-solid fa-star-half-stroke"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <p class="precio">$37.399</p>
+        </div>
+        <div class="col-4">
+          <img src="images/remera-adidas.jpg" alt="" />
+          <h4>Adidas Fast Graphic</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-sharp fa-solid fa-star-half-stroke"></i>
+          </div>
+          <p class="precio">$15.599</p>
+        </div>
+        <div class="col-4">
+          <img src="images/gorra-puma.jpg" alt="" />
+          <h4>Puma Essentials Running</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p class="precio">$4.499</p>
+        </div>
+      </div>
+    </div>
+    <!-- Oferta -->
+    <div class="oferta">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-2">
+            <img class="oferta-img" src="images/apex.png" alt="" />
+          </div>
+          <div class="col-2">
+            <p>Exclusivamente en Miles Running Store</p>
+            <h1>Coros Apex 2 Pro</h1>
+            <small>
+              Diseñado para desempeñarse en todos los tipos de terrenos, Apex 2
+              Pro está construido con una tecnología revolucionaria para que
+              puedas alcanzar tus más ambiciosos objetivos.</small>
+              <br>
+              <a href="#" class="btn">Comprar Ahora &#8594</a>
+
+          </div>
         </div>
       </div>
     </div>
