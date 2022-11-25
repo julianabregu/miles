@@ -5,8 +5,130 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Productos | Miles Running Store</title>
-    <link rel="icon" href="images/favicon.png" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="./images/favicon.png" />
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://kit.fontawesome.com/2b797eb4a6.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <div class="container">
+        <div class="navbar">
+          <a href="./index.html"
+            ><img class="logo" src="./images/logo.png" alt="Logo"
+          /></a>
+          <nav>
+            <ul>
+              <li><a href="./index.html">Inicio</a></li>
+              <li><a href="./productos.html">Productos</a></li>
+              <li><a href="./nosotros.html">Nosotros</a></li>
+              <li><a href="./contacto.html">Contacto</a></li>
+              <li><a href="./cuenta.html">Cuenta</a></li>
+            </ul>
+          </nav>
+          <a href="#"><i class="fa-solid fa-cart-shopping fa-lg"></i></a>
+          <img src="images/moon.png" alt="luna" id="icon" />
+        </div>
+      </div>
+    </header>
+    <div class="wrapper">
+      <aside>
+        <nav>
+          <ul class="menu">
+            <li>
+              <button class="boton-menu boton-categoria active">
+                <i class="fa-solid fa-hand-point-right"></i> Todos los productos
+              </button>
+            </li>
+            <li>
+              <button class="boton-menu boton-categoria">
+                <i class="fa-regular fa-hand-point-right"></i> Calzado
+              </button>
+            </li>
+            <li>
+              <button class="boton-menu boton-categoria">
+                <i class="fa-regular fa-hand-point-right"></i> Remeras
+              </button>
+            </li>
+            <li>
+              <button class="boton-menu boton-categoria">
+                <i class="fa-regular fa-hand-point-right"></i> Shorts
+              </button>
+            </li>
+            <li>
+              <button class="boton-menu boton-categoria">
+                <i class="fa-regular fa-hand-point-right"></i> Pantalones
+              </button>
+            </li>
+            <li>
+              <button class="boton-menu boton-categoria">
+                <i class="fa-regular fa-hand-point-right"></i> Medias
+              </button>
+            </li>
+            <li>
+              <button class="boton-menu boton-categoria">
+                <i class="fa-regular fa-hand-point-right"></i> Accesorios
+              </button>
+            </li>
+            <li>
+              <a class="boton-menu boton-carrito" href="./carrito.html"
+                ><i class="fa-solid fa-cart-shopping"></i> Carrito
+                <span class="numerito">0</span></a
+              >
+            </li>
+          </ul>
+        </nav>
+      </aside>
+      <main>
+        <h2 class="titulo-principal">Todos los productos</h2>
+        <div class="contenedor-productos">
+          <div class="producto">
+            <img
+              class="producto-imagen"
+              src="./images/campera-adidas01.jpg"
+              alt=""
+            />
+            <div class="producto-detalles">
+              <h3 class="producto-titulo">Campera Adidas</h3>
+              <p class="producto-precio">$26.999</p>
+              <button class="producto-agregar">Agregar al carrito</button>
+            </div>
+          </div>
+          <div class="producto">
+            <img class="producto-imagen" src="./images/ultraboost.jpg" alt="" />
+            <div class="producto-detalles">
+              <h3 class="producto-titulo">Zapatillas Adidas</h3>
+              <p class="producto-precio">$67.199</p>
+              <button class="producto-agregar">Agregar al carrito</button>
+            </div>
+          </div>
+          <div class="producto">
+            <img class="producto-imagen" src="./images/short-nike.jpg" alt="" />
+            <div class="producto-detalles">
+              <h3 class="producto-titulo">Short Nike</h3>
+              <p class="producto-precio">$15.499</p>
+              <button class="producto-agregar">Agregar al carrito</button>
+            </div>
+          </div>
+          <div class="producto">
+            <img class="producto-imagen" src="./images/vaporfly.jpg" alt="" />
+            <div class="producto-detalles">
+              <h3 class="producto-titulo">Zapatillas nike</h3>
+              <p class="producto-precio">$97.499</p>
+              <button class="producto-agregar">Agregar al carrito</button>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <div>
+      <footer class="footer">
+        <p><span>&#169;</span> 2022 Designed by jota</p>
+      </footer>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
 </html>

@@ -211,14 +211,48 @@
 // TERCERA PRE-ENTREGA: Optimizacion del proyecto
 /**************************************************/
 
-// Dark Mode
-const icon = document.getElementById("icon");
+// Dark Mode 2.0
+const botonColorMode = document.querySelector("#icon");
+const body = document.body;
 
-icon.onclick = function () {
-  document.body.classList.toggle("dark-theme");
-  if (document.body.classList.contains("dark-theme")) {
+let darkMode = localStorage.getItem("dark-theme");
+
+function activarDarkMode() {
+  body.classList.add("dark-theme");
+  localStorage.setItem("dark-theme", "activado");
+}
+
+function desactivarDarkMode() {
+  body.classList.remove("dark-theme");
+  localStorage.setItem("dark-theme", "desactivado");
+}
+
+if (darkMode === "activado") {
+  activarDarkMode();
+} else {
+  desactivarDarkMode();
+}
+
+if (darkMode === "activado") {
+  icon.src = "images/sun.png";
+} else {
+  icon.src = "images/moon.png";
+}
+
+botonColorMode.addEventListener("click", () => {
+  darkMode = localStorage.getItem("dark-theme");
+  if (darkMode === "activado") {
+    desactivarDarkMode();
+  } else {
+    activarDarkMode();
+  }
+});
+
+botonColorMode.addEventListener("click", () => {
+  darkMode = localStorage.getItem("dark-theme");
+  if (darkMode === "activado") {
     icon.src = "images/sun.png";
   } else {
     icon.src = "images/moon.png";
   }
-};
+});

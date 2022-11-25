@@ -13,13 +13,15 @@
     ></script>
   </head>
   <body>
-    <div class="header">
+    <header>
       <div class="container">
         <div class="navbar">
           <div>
-            <img src="images/logo-black.png" alt="Miles Logo" id="logo" />
+            <a href="index.html"
+              ><img class="logo" src="images/logo.png" alt="Miles Logo"
+            /></a>
           </div>
-          <nav>
+          <nav class="stroke">
             <ul>
               <li><a href="index.html">Inicio</a></li>
               <li><a href="productos.html">Productos</a></li>
@@ -34,239 +36,246 @@
         <div class="row">
           <div class="col-2">
             <h1>Eres corredor?<br />Todo en un solo lugar</h1>
-            <p>
+            <p class="color-p">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br />
               Accusamus doloremque necessitatibus voluptatibus, assumenda
               delectus repellat voluptatum fugiat cum distinctio ex!
             </p>
-            <a href="" class="btn">Nuestros Productos</a>
+            <a href="productos.html" class="btn"
+              >Nuestros Productos <i class="fa-solid fa-arrow-right"></i
+            ></a>
           </div>
           <div class="col-2">
             <img src="images/runner.png" alt="Runner Image" />
           </div>
         </div>
       </div>
-    </div>
-
+    </header>
     <!-- Galeria -->
-    <div class="galeria">
-      <div class="small-container">
-        <div class="row">
-          <div class="col-3">
-            <div class="image">
-              <img
-                class="image-img"
-                src="images/woman-running.png"
-                alt="Nike Image"
-              />
-              <div class="image-overlay">
-                <div class="image-title">Indumentaria</div>
+    <main>
+      <div class="galeria">
+        <div class="small-container">
+          <div class="row">
+            <div class="col-3">
+              <div class="image">
+                <img
+                  class="image-img"
+                  src="images/woman-running.png"
+                  alt="Nike Image"
+                />
+                <div class="image-overlay">
+                  <div class="image-title">Indumentaria</div>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-3">
-            <div class="image">
-              <img class="image-img" src="images/nike.png" alt="Puma Image" />
-              <div class="image-overlay">
-                <div class="image-title">Calzado</div>
+            <div class="col-3">
+              <div class="image">
+                <img class="image-img" src="images/nike.png" alt="Puma Image" />
+                <div class="image-overlay">
+                  <div class="image-title">Calzado</div>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-3">
-            <div class="image">
-              <img
-                class="image-img"
-                src="images/accesorios.png"
-                alt="Adidas Image"
-              />
-              <div class="image-overlay">
-                <div class="image-title">Accesorios</div>
+            <div class="col-3">
+              <div class="image">
+                <img
+                  class="image-img"
+                  src="images/accesorios.png"
+                  alt="Adidas Image"
+                />
+                <div class="image-overlay">
+                  <div class="image-title">Accesorios</div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <!-- Productos Destacados -->
-    <div class="small-container">
-      <h2 class="titulo">Productos Destacados</h2>
-      <div class="row">
-        <div class="col-4">
-          <img src="images/campera-adidas01.jpg" alt="" />
-          <h4>Adidas Run Fast Flower</h4>
-          <div class="rating">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-sharp fa-solid fa-star-half-stroke"></i>
-          </div>
-          <p class="precio">$26.999</p>
-        </div>
-        <div class="col-4">
-          <img src="images/ultraboost.jpg" alt="" />
-          <h4>Adidas Ultraboost 22</h4>
-          <div class="rating">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-sharp fa-solid fa-star-half-stroke"></i>
-            <i class="fa-regular fa-star"></i>
-          </div>
-          <p class="precio">$67.199</p>
-        </div>
-        <div class="col-4">
-          <img src="images/short-nike.jpg" alt="" />
-          <h4>Short Nike Run Division</h4>
-          <div class="rating">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-sharp fa-solid fa-star-half-stroke"></i>
-          </div>
-          <p class="precio">$15.499</p>
-        </div>
-        <div class="col-4">
-          <img src="images/vaporfly.jpg" alt="" />
-          <h4>Nike ZoomX Vaporfly Next</h4>
-          <div class="rating">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-          </div>
-          <p class="precio">$97.499</p>
-        </div>
-      </div>
-      <!-- Nuevos Lanzamientos -->
-      <h2 class="titulo">Nuevos Lanzamientos</h2>
-      <div class="row">
-        <div class="col-4">
-          <img src="images/nike-infinity.jpg" alt="" />
-          <h4>Nike React Infinity Run 2</h4>
-          <div class="rating">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-sharp fa-solid fa-star-half-stroke"></i>
-          </div>
-          <p class="precio">$47.699</p>
-        </div>
-        <div class="col-4">
-          <img src="images/lotto-pantalon.jpg" alt="" />
-          <h4>Lotto Speed Run</h4>
-          <div class="rating">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-sharp fa-solid fa-star-half-stroke"></i>
-            <i class="fa-regular fa-star"></i>
-          </div>
-          <p class="precio">$7.999</p>
-        </div>
-        <div class="col-4">
-          <img src="images/garmin.jpg" alt="" />
-          <h4>Garmin Forerunner 245</h4>
-          <div class="rating">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-sharp fa-solid fa-star-half-stroke"></i>
-          </div>
-          <p class="precio">$97.999</p>
-        </div>
-        <div class="col-4">
-          <img src="images/remera-puma.jpg" alt="" />
-          <h4>Puma Favorite Heather</h4>
-          <div class="rating">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-          </div>
-          <p class="precio">$6.999</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-4">
-          <img src="images/campera-adidas.jpg" alt="" />
-          <h4>Adidas Marathon 3 Stripes</h4>
-          <div class="rating">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-sharp fa-solid fa-star-half-stroke"></i>
-          </div>
-          <p class="precio">$19.199</p>
-        </div>
-        <div class="col-4">
-          <img src="images/velocity.jpg" alt="" />
-          <h4>Puma Velocity Nitro 2</h4>
-          <div class="rating">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-sharp fa-solid fa-star-half-stroke"></i>
-            <i class="fa-regular fa-star"></i>
-          </div>
-          <p class="precio">$37.399</p>
-        </div>
-        <div class="col-4">
-          <img src="images/remera-adidas.jpg" alt="" />
-          <h4>Adidas Fast Graphic</h4>
-          <div class="rating">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-sharp fa-solid fa-star-half-stroke"></i>
-          </div>
-          <p class="precio">$15.599</p>
-        </div>
-        <div class="col-4">
-          <img src="images/gorra-puma.jpg" alt="" />
-          <h4>Puma Essentials Running</h4>
-          <div class="rating">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-          </div>
-          <p class="precio">$4.499</p>
-        </div>
-      </div>
-    </div>
-    <!-- Oferta -->
-    <div class="oferta">
+      <!-- Productos Destacados -->
       <div class="small-container">
+        <h2 class="titulo">Productos Destacados</h2>
         <div class="row">
-          <div class="col-2">
-            <img class="oferta-img" src="images/apex.png" alt="" />
+          <div class="col-4">
+            <img src="images/campera-adidas01.jpg" alt="" />
+            <h4>Campera Adidas</h4>
+            <div class="rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-sharp fa-solid fa-star-half-stroke"></i>
+            </div>
+            <p class="precio">$26.999</p>
           </div>
-          <div class="col-2">
-            <p>Exclusivamente en Miles Running Store</p>
-            <h1>Coros Apex 2 Pro</h1>
-            <small>
-              Diseñado para desempeñarse en todos los tipos de terrenos, Apex 2
-              Pro está construido con una tecnología revolucionaria para que
-              puedas alcanzar tus más ambiciosos objetivos.</small
-            >
-            <br />
-            <!-- Simbolo flecha &#8594 -->
-            <a href="#" class="btn">Comprar Ahora</a>
+          <div class="col-4">
+            <img src="images/ultraboost.jpg" alt="" />
+            <h4>Zapatillas Adidas</h4>
+            <div class="rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-sharp fa-solid fa-star-half-stroke"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <p class="precio">$67.199</p>
+          </div>
+          <div class="col-4">
+            <img src="images/short-nike.jpg" alt="" />
+            <h4>Short Nike</h4>
+            <div class="rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-sharp fa-solid fa-star-half-stroke"></i>
+            </div>
+            <p class="precio">$15.499</p>
+          </div>
+          <div class="col-4">
+            <img src="images/vaporfly.jpg" alt="" />
+            <h4>Zapatillas Nike</h4>
+            <div class="rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="precio">$97.499</p>
+          </div>
+        </div>
+        <!-- Nuevos Lanzamientos -->
+        <h2 class="titulo">Nuevos Lanzamientos</h2>
+        <div class="row">
+          <div class="col-4">
+            <img src="images/nike-infinity.jpg" alt="" />
+            <h4>Zapatillas Nike 2</h4>
+            <div class="rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-sharp fa-solid fa-star-half-stroke"></i>
+            </div>
+            <p class="precio">$47.699</p>
+          </div>
+          <div class="col-4">
+            <img src="images/lotto-pantalon.jpg" alt="" />
+            <h4>Pantalon Lotto</h4>
+            <div class="rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-sharp fa-solid fa-star-half-stroke"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <p class="precio">$7.999</p>
+          </div>
+          <div class="col-4">
+            <img src="images/garmin.jpg" alt="" />
+            <h4>Reloj Garmin</h4>
+            <div class="rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-sharp fa-solid fa-star-half-stroke"></i>
+            </div>
+            <p class="precio">$97.999</p>
+          </div>
+          <div class="col-4">
+            <img src="images/remera-puma.jpg" alt="" />
+            <h4>Remera Puma</h4>
+            <div class="rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="precio">$6.999</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4">
+            <img src="images/campera-adidas.jpg" alt="" />
+            <h4>Campera Adidas 2</h4>
+            <div class="rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-sharp fa-solid fa-star-half-stroke"></i>
+            </div>
+            <p class="precio">$19.199</p>
+          </div>
+          <div class="col-4">
+            <img src="images/velocity.jpg" alt="" />
+            <h4>Zapatillas Puma</h4>
+            <div class="rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-sharp fa-solid fa-star-half-stroke"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <p class="precio">$37.399</p>
+          </div>
+          <div class="col-4">
+            <img src="images/remera-adidas.jpg" alt="" />
+            <h4>Remera Adidas</h4>
+            <div class="rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-sharp fa-solid fa-star-half-stroke"></i>
+            </div>
+            <p class="precio">$15.599</p>
+          </div>
+          <div class="col-4">
+            <img src="images/gorra-puma.jpg" alt="" />
+            <h4>Gorra Puma</h4>
+            <div class="rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="precio">$4.499</p>
           </div>
         </div>
       </div>
-    </div>
-
+      <!-- Oferta -->
+      <div class="oferta">
+        <div class="small-container">
+          <div class="row">
+            <div class="col-2">
+              <img class="oferta-img" src="images/apex.png" alt="" />
+            </div>
+            <div class="col-2">
+              <p class="color-p">Exclusivamente en Miles Running Store</p>
+              <h1>Coros Apex 2 Pro</h1>
+              <small>
+                Diseñado para desempeñarse en todos los tipos de terrenos, Apex
+                2 Pro está construido con una tecnología revolucionaria para que
+                puedas alcanzar tus más ambiciosos objetivos.</small
+              >
+              <br />
+              <!-- Simbolo flecha &#8594 -->
+              <a href="#" class="btn"
+                >Comprar Ahora <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p color-p><span>&#169;</span> 2022 Designed by jota</p>
+    </footer>
     <script src="main.js"></script>
   </body>
 </html>
