@@ -6,8 +6,22 @@
   box-sizing: border-box;
 }
 
+:root {
+  --primary-color: #fff;
+  --secondary-color: #000;
+  --third-color: #555;
+}
+
+.dark-theme {
+  --primary-color: #000;
+  --secondary-color: #fff;
+  --third-color: #fff;
+}
+
 body {
   font-family: "Poppins", sans-serif;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 .navbar {
@@ -33,11 +47,21 @@ nav ul li {
 
 a {
   text-decoration: none;
-  color: #555;
+  color: var(--third-color);
 }
 
 p {
-  color: #555;
+  color: var(--third-color);
+}
+
+#logo {
+  width: 125px;
+}
+
+#icon {
+  width: 24px;
+  cursor: pointer;
+  margin-left: 20px;
 }
 
 .container {
@@ -73,7 +97,7 @@ p {
 .btn {
   display: inline-block;
   background: #ff523b;
-  color: #fff;
+  color: var(--primary-color);
   padding: 8px 30px;
   margin: 30px 0;
   border-radius: 30px;
@@ -84,9 +108,9 @@ p {
   background: #c3220d;
 }
 
-.header {
+/* .header {
   background: radial-gradient(#fff, #ffd6d6);
-}
+} */
 
 .header .row {
   margin-top: 70px;
@@ -178,7 +202,7 @@ p {
 
 .col-4 h4 {
   margin-left: 25px;
-  color: #555;
+  color: var(--third-color);
   font-weight: 300;
   font-size: 16px;
 }
@@ -196,7 +220,7 @@ p {
   margin: 0 auto 80px;
   position: relative;
   line-height: 60px;
-  color: #555;
+  color: var(--third-color);
 }
 
 .titulo::after {
@@ -224,7 +248,7 @@ p {
 }
 
 .oferta {
-  background: radial-gradient(#fff, #ffd6d6);
+  /* background: radial-gradient(#fff, #ffd6d6); */
   margin-top: 80px;
   padding: 30px 0;
 }
@@ -234,5 +258,5 @@ p {
 }
 
 small {
-  color: #555;
+  color: var(--third-color);
 }

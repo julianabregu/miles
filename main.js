@@ -206,3 +206,19 @@
 // );
 // console.log("Total a pagar: $" + total);
 // alert("El total a pagar por su compra es: $" + total);
+
+/**************************************************/
+// TERCERA PRE-ENTREGA: Optimizacion del proyecto
+/**************************************************/
+
+// Dark Mode
+const icon = document.getElementById("icon");
+
+icon.onclick = function () {
+  document.body.classList.toggle("dark-theme");
+  if (document.body.classList.contains("dark-theme")) {
+    icon.src = "images/sun.png";
+  } else {
+    icon.src = "images/moon.png";
+  }
+};
