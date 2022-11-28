@@ -234,9 +234,9 @@ if (darkMode === "activado") {
 }
 
 if (darkMode === "activado") {
-  icon.src = "images/sun.png";
+  icon.src = "images/web/sun.png";
 } else {
-  icon.src = "images/moon.png";
+  icon.src = "images/web/moon.png";
 }
 
 botonColorMode.addEventListener("click", () => {
@@ -251,8 +251,10 @@ botonColorMode.addEventListener("click", () => {
 botonColorMode.addEventListener("click", () => {
   darkMode = localStorage.getItem("dark-theme");
   if (darkMode === "activado") {
-    icon.src = "images/sun.png";
+    icon.src = "images/web/sun.png";
   } else {
-    icon.src = "images/moon.png";
+    icon.src = "images/web/moon.png";
   }
 });
+
+/* Productos */
