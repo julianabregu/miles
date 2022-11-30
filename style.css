@@ -315,12 +315,12 @@ aside {
   font-weight: 600;
   padding: 1rem;
   font-size: 1rem;
+  width: 100%;
 }
 
 .boton-menu.active {
   background-color: var(--white-color);
   color: var(--orange-color);
-  width: 100%;
   border-top-left-radius: 1rem;
   border-bottom-left-radius: 1rem;
   position: relative;

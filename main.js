@@ -258,3 +258,361 @@ botonColorMode.addEventListener("click", () => {
 });
 
 /* Productos */
+
+const productos = [
+  // Zapatillas
+  {
+    id: "zapatilla-01",
+    titulo: "Zapatilla 01",
+    imagen: "./images/zapatillas/zapatilla-01.jpg",
+    categoria: {
+      nombre: "Zapatillas",
+      id: "zapatillas",
+    },
+    precio: 1000,
+  },
+  {
+    id: "zapatilla-02",
+    titulo: "Zapatilla 02",
+    imagen: "./images/zapatillas/zapatilla-02.jpg",
+    categoria: {
+      nombre: "Zapatillas",
+      id: "zapatillas",
+    },
+    precio: 1000,
+  },
+  {
+    id: "zapatilla-03",
+    titulo: "Zapatilla 03",
+    imagen: "./images/zapatillas/zapatilla-03.jpg",
+    categoria: {
+      nombre: "Zapatillas",
+      id: "zapatillas",
+    },
+    precio: 1000,
+  },
+  {
+    id: "zapatilla-04",
+    titulo: "Zapatilla 04",
+    imagen: "./images/zapatillas/zapatilla-04.jpg",
+    categoria: {
+      nombre: "Zapatillas",
+      id: "zapatillas",
+    },
+    precio: 1000,
+  },
+  {
+    id: "zapatilla-05",
+    titulo: "Zapatilla 05",
+    imagen: "./images/zapatillas/zapatilla-05.jpg",
+    categoria: {
+      nombre: "Zapatillas",
+      id: "zapatillas",
+    },
+    precio: 1000,
+  },
+  {
+    id: "zapatilla-06",
+    titulo: "Zapatilla 06",
+    imagen: "./images/zapatillas/zapatilla-06.jpg",
+    categoria: {
+      nombre: "Zapatillas",
+      id: "zapatillas",
+    },
+    precio: 1000,
+  },
+  // Remeras
+  {
+    id: "remera-01",
+    titulo: "Remera 01",
+    imagen: "./images/remeras/remera-01.jpg",
+    categoria: {
+      nombre: "Remeras",
+      id: "remeras",
+    },
+    precio: 1000,
+  },
+  {
+    id: "remera-02",
+    titulo: "Remera 02",
+    imagen: "./images/remeras/remera-02.jpg",
+    categoria: {
+      nombre: "Remeras",
+      id: "remeras",
+    },
+    precio: 1000,
+  },
+  {
+    id: "remera-03",
+    titulo: "Remera 03",
+    imagen: "./images/remeras/remera-03.jpg",
+    categoria: {
+      nombre: "Remeras",
+      id: "remeras",
+    },
+    precio: 1000,
+  },
+  {
+    id: "remera-04",
+    titulo: "Remera 04",
+    imagen: "./images/remeras/remera-04.jpg",
+    categoria: {
+      nombre: "Remeras",
+      id: "remeras",
+    },
+    precio: 1000,
+  },
+  {
+    id: "remera-05",
+    titulo: "Remera 05",
+    imagen: "./images/remeras/remera-05.jpg",
+    categoria: {
+      nombre: "Remeras",
+      id: "remeras",
+    },
+    precio: 1000,
+  },
+  {
+    id: "remera-06",
+    titulo: "Remera 06",
+    imagen: "./images/remeras/remera-06.jpg",
+    categoria: {
+      nombre: "Remeras",
+      id: "remeras",
+    },
+    precio: 1000,
+  },
+  // Shorts
+  {
+    id: "short-01",
+    titulo: "Short 01",
+    imagen: "./images/shorts/short-01.jpg",
+    categoria: {
+      nombre: "Shorts",
+      id: "shorts",
+    },
+    precio: 1000,
+  },
+  {
+    id: "short-02",
+    titulo: "Short 02",
+    imagen: "./images/shorts/short-02.jpg",
+    categoria: {
+      nombre: "Shorts",
+      id: "shorts",
+    },
+    precio: 1000,
+  },
+  {
+    id: "short-03",
+    titulo: "Short 03",
+    imagen: "./images/shorts/short-03.jpg",
+    categoria: {
+      nombre: "Shorts",
+      id: "shorts",
+    },
+    precio: 1000,
+  },
+  {
+    id: "short-04",
+    titulo: "Short 04",
+    imagen: "./images/shorts/short-04.jpg",
+    categoria: {
+      nombre: "Shorts",
+      id: "shorts",
+    },
+    precio: 1000,
+  },
+  {
+    id: "short-05",
+    titulo: "Short 05",
+    imagen: "./images/shorts/short-05.jpg",
+    categoria: {
+      nombre: "Shorts",
+      id: "shorts",
+    },
+    precio: 1000,
+  },
+  {
+    id: "short-06",
+    titulo: "Short 06",
+    imagen: "./images/shorts/short-06.jpg",
+    categoria: {
+      nombre: "Shorts",
+      id: "shorts",
+    },
+    precio: 1000,
+  },
+  // Pantalones
+  {
+    id: "pantalon-01",
+    titulo: "Pantalon 01",
+    imagen: "./images/pantalones/pantalon-01.jpg",
+    categoria: {
+      nombre: "Pantalones",
+      id: "pantalones",
+    },
+    precio: 1000,
+  },
+  {
+    id: "pantalon-02",
+    titulo: "Pantalon 02",
+    imagen: "./images/pantalones/pantalon-02.jpg",
+    categoria: {
+      nombre: "Pantalones",
+      id: "pantalones",
+    },
+    precio: 1000,
+  },
+  {
+    id: "pantalon-03",
+    titulo: "Pantalon 03",
+    imagen: "./images/pantalones/pantalon-03.jpg",
+    categoria: {
+      nombre: "Pantalones",
+      id: "pantalones",
+    },
+    precio: 1000,
+  },
+  {
+    id: "pantalon-04",
+    titulo: "Pantalon 04",
+    imagen: "./images/pantalones/pantalon-04.jpg",
+    categoria: {
+      nombre: "Pantalones",
+      id: "pantalones",
+    },
+    precio: 1000,
+  },
+  {
+    id: "pantalon-05",
+    titulo: "Pantalon 05",
+    imagen: "./images/pantalones/pantalon-05.jpg",
+    categoria: {
+      nombre: "Pantalones",
+      id: "pantalones",
+    },
+    precio: 1000,
+  },
+  {
+    id: "pantalon-06",
+    titulo: "Pantalon 06",
+    imagen: "./images/pantalones/pantalon-06.jpg",
+    categoria: {
+      nombre: "Pantalones",
+      id: "pantalones",
+    },
+    precio: 1000,
+  },
+  // Accesorios
+  {
+    id: "accesorio-01",
+    titulo: "Accesorio 01",
+    imagen: "./images/accesorios/accesorio-01.jpg",
+    categoria: {
+      nombre: "Accesorios",
+      id: "accesorios",
+    },
+    precio: 1000,
+  },
+  {
+    id: "accesorio-02",
+    titulo: "Accesorio 02",
+    imagen: "./images/accesorios/accesorio-02.jpg",
+    categoria: {
+      nombre: "Accesorios",
+      id: "accesorios",
+    },
+    precio: 1000,
+  },
+  {
+    id: "accesorio-03",
+    titulo: "Accesorio 03",
+    imagen: "./images/accesorios/accesorio-03.jpg",
+    categoria: {
+      nombre: "Accesorios",
+      id: "accesorios",
+    },
+    precio: 1000,
+  },
+  {
+    id: "accesorio-04",
+    titulo: "Accesorio 04",
+    imagen: "./images/accesorios/accesorio-04.jpg",
+    categoria: {
+      nombre: "Accesorios",
+      id: "accesorios",
+    },
+    precio: 1000,
+  },
+  {
+    id: "accesorio-05",
+    titulo: "Accesorio 05",
+    imagen: "./images/accesorios/accesorio-05.jpg",
+    categoria: {
+      nombre: "Accesorios",
+      id: "accesorios",
+    },
+    precio: 1000,
+  },
+  {
+    id: "accesorio-06",
+    titulo: "Accesorio 06",
+    imagen: "./images/accesorios/accesorio-06.jpg",
+    categoria: {
+      nombre: "Accesorios",
+      id: "accesorios",
+    },
+    precio: 1000,
+  },
+];
+
+const contenedorProductos = document.querySelector("#contenedor-productos");
+const botonesCategorias = document.querySelectorAll(".boton-categoria");
+const tituloPrincipal = document.querySelector("#titulo-principal");
+
+function cargarProductos(productosElegidos) {
+  contenedorProductos.innerHTML = "";
+
+  productosElegidos.forEach((producto) => {
+    const div = document.createElement("div");
+    div.classList.add("producto");
+    div.innerHTML = `
+    <img
+              class="producto-imagen"
+              src="${producto.imagen}"
+              alt="${producto.titulo}"
+            />
+            <div class="producto-detalles">
+              <h3 class="producto-titulo">${producto.titulo}</h3>
+              <p class="producto-precio">${producto.precio}</p>
+              <button class="producto-agregar" id=""${producto.id}>Agregar al carrito</button>
+            </div>
+    `;
+
+    contenedorProductos.append(div);
+  });
+}
+
+cargarProductos(productos);
+
+botonesCategorias.forEach((boton) => {
+  boton.addEventListener("click", (e) => {
+    botonesCategorias.forEach((boton) => boton.classList.remove("active"));
+    e.currentTarget.classList.add("active");
+
+    if (e.currentTarget.id != "todos") {
+      const productoCategoria = productos.find(
+        (producto) => producto.categoria.id === e.currentTarget.id
+      );
+      tituloPrincipal.innerText = productoCategoria.categoria.nombre;
+      const productosBoton = productos.filter(
+        (producto) => producto.categoria.id === e.currentTarget.id
+      );
+      cargarProductos(productosBoton);
+    } else {
+      tituloPrincipal.innerText = "Todos los productos";
+      cargarProductos(productos);
+    }
+  });
+});

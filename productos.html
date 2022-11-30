@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Productos | Miles Running Store</title>
     <link rel="icon" href="./images/web/favicon.png" />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="style.css" />
     <script
       src="https://kit.fontawesome.com/2b797eb4a6.js"
       crossorigin="anonymous"
@@ -38,32 +38,32 @@
         <nav>
           <ul class="menu">
             <li>
-              <button class="boton-menu boton-categoria active">
+              <button id="todos" class="boton-menu boton-categoria active">
                 <i class="fa-solid fa-hand-point-right"></i> Todos los productos
               </button>
             </li>
             <li>
-              <button class="boton-menu boton-categoria">
+              <button id="zapatillas" class="boton-menu boton-categoria">
                 <i class="fa-regular fa-hand-point-right"></i> Zapatillas
               </button>
             </li>
             <li>
-              <button class="boton-menu boton-categoria">
+              <button id="remeras" class="boton-menu boton-categoria">
                 <i class="fa-regular fa-hand-point-right"></i> Remeras
               </button>
             </li>
             <li>
-              <button class="boton-menu boton-categoria">
+              <button id="shorts" class="boton-menu boton-categoria">
                 <i class="fa-regular fa-hand-point-right"></i> Shorts
               </button>
             </li>
             <li>
-              <button class="boton-menu boton-categoria">
+              <button id="pantalones" class="boton-menu boton-categoria">
                 <i class="fa-regular fa-hand-point-right"></i> Pantalones
               </button>
             </li>
             <li>
-              <button class="boton-menu boton-categoria">
+              <button id="accesorios" class="boton-menu boton-categoria">
                 <i class="fa-regular fa-hand-point-right"></i> Accesorios
               </button>
             </li>
@@ -77,104 +77,11 @@
         </nav>
       </aside>
       <main>
-        <h2 class="titulo-principal">Todos los productos</h2>
-        <div class="contenedor-productos">
-          <div class="producto">
-            <img
-              class="producto-imagen"
-              src="./images/zapatillas/zapatillas-03.jpg"
-              alt=""
-            />
-            <div class="producto-detalles">
-              <h3 class="producto-titulo">Zapatillas Nike Infinity Run 2</h3>
-              <p class="producto-precio">$47.699</p>
-              <button class="producto-agregar">Agregar al carrito</button>
-            </div>
-          </div>
-          <div class="producto">
-            <img
-              class="producto-imagen"
-              src="./images/pantalones/pantalon-01.jpg"
-              alt=""
-            />
-            <div class="producto-detalles">
-              <h3 class="producto-titulo">Pantalon Lotto Speed Run</h3>
-              <p class="producto-precio">$7.999</p>
-              <button class="producto-agregar">Agregar al carrito</button>
-            </div>
-          </div>
-          <div class="producto">
-            <img
-              class="producto-imagen"
-              src="./images/accesorios/accesorio-01.jpg"
-              alt=""
-            />
-            <div class="producto-detalles">
-              <h3 class="producto-titulo">Reloj Garmin Forerunner 245</h3>
-              <p class="producto-precio">$97.999</p>
-              <button class="producto-agregar">Agregar al carrito</button>
-            </div>
-          </div>
-          <div class="producto">
-            <img
-              class="producto-imagen"
-              src="./images/remeras/remera-01.jpg"
-              alt=""
-            />
-            <div class="producto-detalles">
-              <h3 class="producto-titulo">Remera Puma Favorite Heather</h3>
-              <p class="producto-precio">$6.999</p>
-              <button class="producto-agregar">Agregar al carrito</button>
-            </div>
-          </div>
-          <div class="producto">
-            <img
-              class="producto-imagen"
-              src="./images/camperas/campera-02.jpg"
-              alt=""
-            />
-            <div class="producto-detalles">
-              <h3 class="producto-titulo">Campera Adidas Marathon</h3>
-              <p class="producto-precio">$19.199</p>
-              <button class="producto-agregar">Agregar al carrito</button>
-            </div>
-          </div>
-          <div class="producto">
-            <img
-              class="producto-imagen"
-              src="./images/zapatillas/zapatillas-04.jpg"
-              alt=""
-            />
-            <div class="producto-detalles">
-              <h3 class="producto-titulo">Zapatillas Puma Velocity Nitro 2</h3>
-              <p class="producto-precio">$37.399</p>
-              <button class="producto-agregar">Agregar al carrito</button>
-            </div>
-          </div>
-          <div class="producto">
-            <img
-              class="producto-imagen"
-              src="./images/remeras/remera-02.jpg"
-              alt=""
-            />
-            <div class="producto-detalles">
-              <h3 class="producto-titulo">Remera Adidas Fast Graphic</h3>
-              <p class="producto-precio">$15.599</p>
-              <button class="producto-agregar">Agregar al carrito</button>
-            </div>
-          </div>
-          <div class="producto">
-            <img
-              class="producto-imagen"
-              src="./images/accesorios/accesorio-03.jpg"
-              alt=""
-            />
-            <div class="producto-detalles">
-              <h3 class="producto-titulo">Gorra Puma Essentials</h3>
-              <p class="producto-precio">$4.499</p>
-              <button class="producto-agregar">Agregar al carrito</button>
-            </div>
-          </div>
+        <h2 id="titulo-principal" class="titulo-principal">
+          Todos los productos
+        </h2>
+        <div id="contenedor-productos" class="contenedor-productos">
+          <!-- Productos JS -->
         </div>
       </main>
     </div>
