@@ -9,6 +9,11 @@ let botonesEliminar = document.querySelectorAll(".carrito-producto-eliminar");
 const botonVaciar = document.querySelector("#carrito-acciones-vaciar");
 const contenedorTotal = document.querySelector("#total");
 const botonComprar = document.querySelector("#carrito-acciones-comprar");
+const contenedorCarritoCantidad = document.querySelector(
+  "#mi-carrito-cantidad"
+);
+const contenedorMiCarrito = document.querySelector("#mi-carrito-titulo");
+const contenedorCompraRealizada = document.querySelector("#carrito-compra");
 
 // Cargar productos al carrito
 
@@ -73,6 +78,8 @@ function actualizarNumerito() {
     0
   );
   numerito.innerText = nuevoNumerito;
+  contenedorCarritoCantidad.innerText = nuevoNumerito + " productos";
+
   localStorage.setItem("numerito", nuevoNumerito);
 }
 
@@ -146,6 +153,9 @@ function comprarCarrito() {
   contenedorCarritoProductos.classList.add("disabled");
   contenedorCarritoAcciones.classList.add("disabled");
   contenedorCarritoComprado.classList.remove("disabled");
+  contenedorCarritoCantidad.classList.add("disabled");
+  contenedorMiCarrito.classList.add("disabled");
+  contenedorCompraRealizada.classList.remove("disabled");
 }
 
 // Boton vaciar Carrito + SweetAlert

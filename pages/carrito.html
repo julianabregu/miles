@@ -44,7 +44,24 @@
       <div class="small-container">
         <div class="contenedor-carrito">
           <h2 class="titulo">Carrito de Compras</h2>
-          <p id="carrito-vacio" class="carrito-vacio">Tu carrito esta vacio.</p>
+          <div id="mi-carrito" class="mi-carrito">
+            <div class="mi-carrito-izquierda">
+              <h3 id="mi-carrito-titulo" class="mi-carrito-titulo">
+                Mi carrito
+              </h3>
+              <p id="mi-carrito-cantidad" class="mi-carrito-cantidad">
+                0 productos
+              </p>
+            </div>
+            <div class="mi-carrito-derecha">
+              <button id="mi-carrito-btn" class="mi-carrito-btn">
+                <a href="../pages/productos.html">Seguir Comprando</a>
+              </button>
+            </div>
+          </div>
+          <p id="carrito-vacio" class="carrito-vacio">
+            Tu carrito se encuentra vacio.
+          </p>
           <div id="carrito-productos" class="carrito-productos disabled">
             <!-- Productos al carrito con js -->
           </div>
@@ -74,8 +91,13 @@
             </div>
           </div>
           <!-- Compra finalizada -->
+          <h3 id="carrito-compra" class="carrito-compra disabled">
+            <i class="fa-solid fa-check"></i>
+            Pedido Confirmado
+          </h3>
           <p id="carrito-comprado" class="carrito-comprado disabled">
-            Muchas gracias por tu compra!!
+            Recibimos tu compra y nos pondremos en contacto contigo para
+            realizar el envio cuanto antes.
           </p>
         </div>
       </div>

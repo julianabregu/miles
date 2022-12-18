@@ -2,7 +2,7 @@
 
 const contenedorDestacados = document.querySelector("#row-uno");
 
-fetch("../scripts/destacados.json")
+fetch("scripts/destacados.json")
   .then((response) => response.json())
   .then((data) => {
     data.forEach((producto) => {
@@ -26,7 +26,7 @@ fetch("../scripts/destacados.json")
 
 const contenedorLanzamiento = document.querySelector("#row-dos");
 
-fetch("../scripts/lanzamiento.json")
+fetch("scripts/lanzamiento.json")
   .then((response) => response.json())
   .then((data) => {
     data.forEach((producto) => {

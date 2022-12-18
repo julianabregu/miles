@@ -344,6 +344,7 @@ small {
 
 .carrito-vacio {
   font-size: 18px;
+  margin-top: 1rem;
 }
 
 .carrito-productos {
@@ -417,6 +418,34 @@ small {
 
 .disabled {
   display: none;
+}
+
+.mi-carrito {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mi-carrito-titulo {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.mi-carrito-cantidad {
+  font-size: 16px;
+}
+
+.mi-carrito-btn {
+  border: 0;
+  background-color: var(--light-gray-color);
+  color: var(--orange-color);
+  padding: 1rem;
+  border-radius: 1rem;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.mi-carrito-btn a {
+  color: inherit;
 }
 
 /* Barra de busqueda */
