@@ -8,7 +8,7 @@ fetch("scripts/destacados.json")
     data.forEach((producto) => {
       const div = document.createElement("div");
       div.classList.add("col-4");
-      div.innerHTML = `<img src="${producto.imagen}" alt="" />
+      div.innerHTML = `<img src="${producto.imagen}" alt="${producto.titulo}" />
       <h4>${producto.titulo}</h4>
       <div class="rating">
         <i class="fa-solid fa-star"></i>
@@ -32,7 +32,7 @@ fetch("scripts/lanzamiento.json")
     data.forEach((producto) => {
       const div = document.createElement("div");
       div.classList.add("col-4");
-      div.innerHTML = `<img src="${producto.imagen}" alt="" />
+      div.innerHTML = `<img src="${producto.imagen}" alt="${producto.titulo}" />
       <h4>${producto.titulo}</h4>
       <div class="rating">
         <i class="fa-solid fa-star"></i>
