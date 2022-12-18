@@ -1,0 +1,82 @@
+[
+  {
+    "id": "zapatilla-03",
+    "titulo": "Zapatillas Nike React Infinity 2",
+    "imagen": "../images/zapatillas/zapatilla-03.jpg",
+    "categoria": {
+      "nombre": "Zapatillas",
+      "id": "zapatillas"
+    },
+    "precio": 69599
+  },
+  {
+    "id": "pantalon-01",
+    "titulo": "Pantalón Nike Dri-Fit Wild Run",
+    "imagen": "../images/pantalones/pantalon-01.jpg",
+    "categoria": {
+      "nombre": "Pantalones",
+      "id": "pantalones"
+    },
+    "precio": 25299
+  },
+  {
+    "id": "accesorio-02",
+    "titulo": "Reloj Garmin Forerunner 245",
+    "imagen": "../images/accesorios/accesorio-02.jpg",
+    "categoria": {
+      "nombre": "Accesorios",
+      "id": "accesorios"
+    },
+    "precio": 97999
+  },
+  {
+    "id": "remera-01",
+    "titulo": "Remera Puma Favorite Heather",
+    "imagen": "../images/remeras/remera-01.jpg",
+    "categoria": {
+      "nombre": "Remeras",
+      "id": "remeras"
+    },
+    "precio": 6999
+  },
+  {
+    "id": "accesorio-07",
+    "titulo": "Riñonera Nike Challenger Waist",
+    "imagen": "../images/accesorios/accesorio-07.jpg",
+    "categoria": {
+      "nombre": "Accesorios",
+      "id": "accesorios"
+    },
+    "precio": 13899
+  },
+  {
+    "id": "zapatilla-04",
+    "titulo": "Zapatillas Puma Velocity Nitro 2",
+    "imagen": "../images/zapatillas/zapatilla-04.jpg",
+    "categoria": {
+      "nombre": "Zapatillas",
+      "id": "zapatillas"
+    },
+    "precio": 31999
+  },
+  {
+    "id": "remera-02",
+    "titulo": "Remera Nike Dri-Fit Miler",
+    "imagen": "../images/remeras/remera-02.jpg",
+    "categoria": {
+      "nombre": "Remeras",
+      "id": "remeras"
+    },
+    "precio": 13699
+  },
+  {
+    "id": "accesorio-03",
+    "titulo": "Gorra Puma Essentials Running",
+    "imagen": "../images/accesorios/accesorio-03.jpg",
+    "categoria": {
+      "nombre": "Accesorios",
+      "id": "accesorios"
+    },
+    "precio": 4999
+  }
+]

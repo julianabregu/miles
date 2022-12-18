@@ -1,0 +1,42 @@
+[
+  {
+    "id": "accesorio-01",
+    "titulo": "Reloj Garmin Forerunner 955",
+    "imagen": "../images/accesorios/accesorio-01.jpg",
+    "categoria": {
+      "nombre": "Accesorios",
+      "id": "accesorios"
+    },
+    "precio": 246999
+  },
+  {
+    "id": "remera-04",
+    "titulo": "Remera Asics Mesh",
+    "imagen": "../images/remeras/remera-04.jpg",
+    "categoria": {
+      "nombre": "Remeras",
+      "id": "remeras"
+    },
+    "precio": 8499
+  },
+  {
+    "id": "pantalon-03",
+    "titulo": "Pantalón Adidas Astro Wind",
+    "imagen": "../images/pantalones/pantalon-03.jpg",
+    "categoria": {
+      "nombre": "Pantalones",
+      "id": "pantalones"
+    },
+    "precio": 22999
+  },
+  {
+    "id": "short-01",
+    "titulo": "Short Adidas Marathon 20",
+    "imagen": "../images/shorts/short-01.jpg",
+    "categoria": {
+      "nombre": "Shorts",
+      "id": "shorts"
+    },
+    "precio": 10999
+  }
+]

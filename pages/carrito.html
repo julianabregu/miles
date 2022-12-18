@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carrito | Miles Running Store</title>
+    <link rel="icon" href="../images/web/favicon.png" />
+    <link rel="stylesheet" href="../styles/style.css" />
+    <script
+      src="https://kit.fontawesome.com/2b797eb4a6.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <!-- Navbar -->
+      <div class="container">
+        <div class="navbar">
+          <div>
+            <a href="../index.html"
+              ><img
+                class="logo"
+                src="../images/logo/logo-orange.png"
+                alt="web logo"
+            /></a>
+          </div>
+          <nav class="stroke">
+            <ul>
+              <li><a href="../index.html">Inicio</a></li>
+              <li><a href="../pages/productos.html">Productos</a></li>
+            </ul>
+          </nav>
+          <div class="carrito">
+            <a class="boton-carrito" href="../pages/carrito.html"
+              ><i class="fa-solid fa-cart-shopping fa-lg"></i>
+              <div id="numerito" class="numerito">0</div></a
+            >
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <!-- Contenido carrito -->
+      <div class="small-container">
+        <div class="contenedor-carrito">
+          <h2 class="titulo">Carrito de Compras</h2>
+          <p id="carrito-vacio" class="carrito-vacio">Tu carrito esta vacio.</p>
+          <div id="carrito-productos" class="carrito-productos disabled">
+            <!-- Productos al carrito con js -->
+          </div>
+          <!-- Acciones carrito -->
+          <div id="carrito-acciones" class="carrito-acciones disabled">
+            <div class="carrito-acciones-izquierda">
+              <button
+                type="button"
+                id="carrito-acciones-vaciar"
+                class="carrito-acciones-vaciar"
+              >
+                Vaciar carrito
+              </button>
+            </div>
+            <div class="carrito-acciones-derecha">
+              <div class="carrito-acciones-total">
+                <p>Total:</p>
+                <p id="total">$2000</p>
+              </div>
+              <button
+                type="button"
+                id="carrito-acciones-comprar"
+                class="carrito-acciones-comprar"
+              >
+                Comprar ahora
+              </button>
+            </div>
+          </div>
+          <!-- Compra finalizada -->
+          <p id="carrito-comprado" class="carrito-comprado disabled">
+            Muchas gracias por tu compra!!
+          </p>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <!-- Footer -->
+      <div class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="footer-col-1">
+              <h3>Descarga nuestra app</h3>
+              <p>Disponible para Android y iOS</p>
+              <div class="dispositivos">
+                <img src="../images/web/play-store.png" alt="play-store" />
+                <img src="../images/web/app-store.png" alt="app-store" />
+              </div>
+            </div>
+            <div class="footer-col-2">
+              <h3>Ayuda</h3>
+              <ul>
+                <li><a href="">Envios</a></li>
+                <li><a href="">Contacto</a></li>
+                <li><a href="">Cambios y devoluciones</a></li>
+                <li><a href="">Preguntas frecuentes</a></li>
+              </ul>
+            </div>
+            <div class="footer-col-3">
+              <h3>Siguenos</h3>
+              <ul>
+                <li><a href="">Facebook</a></li>
+                <li><a href="">Twitter</a></li>
+                <li><a href="">Instagram</a></li>
+                <li><a href="">Youtube</a></li>
+              </ul>
+            </div>
+          </div>
+          <p class="copy">© Copyright 2022 - Miles Running Store</p>
+        </div>
+      </div>
+    </footer>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../scripts/carrito.js"></script>
+  </body>
+</html>
