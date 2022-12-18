@@ -2,7 +2,7 @@
   {
     "id": "accesorio-01",
     "titulo": "Reloj Garmin Forerunner 955",
-    "imagen": "../images/accesorios/accesorio-01.jpg",
+    "imagen": "images/accesorios/accesorio-01.jpg",
     "categoria": {
       "nombre": "Accesorios",
       "id": "accesorios"
@@ -12,7 +12,7 @@
   {
     "id": "remera-04",
     "titulo": "Remera Asics Mesh",
-    "imagen": "../images/remeras/remera-04.jpg",
+    "imagen": "images/remeras/remera-04.jpg",
     "categoria": {
       "nombre": "Remeras",
       "id": "remeras"
@@ -22,7 +22,7 @@
   {
     "id": "pantalon-03",
     "titulo": "Pantalón Adidas Astro Wind",
-    "imagen": "../images/pantalones/pantalon-03.jpg",
+    "imagen": "images/pantalones/pantalon-03.jpg",
     "categoria": {
       "nombre": "Pantalones",
       "id": "pantalones"
@@ -32,7 +32,7 @@
   {
     "id": "short-01",
     "titulo": "Short Adidas Marathon 20",
-    "imagen": "../images/shorts/short-01.jpg",
+    "imagen": "images/shorts/short-01.jpg",
     "categoria": {
       "nombre": "Shorts",
       "id": "shorts"
