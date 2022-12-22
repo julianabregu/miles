@@ -450,12 +450,12 @@ small {
 
 /* Barra de busqueda */
 
-.barra-busqueda {
+.bar {
   margin-left: 1rem;
   margin-bottom: 1rem;
 }
 
-.barra-busqueda form {
+.bar form {
   width: 25%;
   border: 2px solid var(--orange-color);
   border-radius: 4px;
@@ -464,7 +464,7 @@ small {
   align-items: center;
 }
 
-.barra-busqueda form input {
+.bar form input {
   border: none;
   outline: none;
   box-shadow: none;
@@ -474,7 +474,7 @@ small {
   padding: 8px 10px;
 }
 
-.barra-busqueda form i {
+.bar form i {
   padding-left: 10px;
 }
 

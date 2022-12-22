@@ -1,7 +1,6 @@
 import { productos } from "../scripts/productos.js";
 
 // Cargando productos
-
 const contenedorProductos = document.querySelector("#row");
 const botonesCategorias = document.querySelectorAll(".boton-categorias");
 const tituloCategorias = document.querySelector("#titulo-categorias");
@@ -137,3 +136,15 @@ function actualizarNumerito() {
   );
   numerito.innerText = nuevoNumerito;
 }
+
+// Barra de busqueda
+const searchBar = document.getElementById("search-bar");
+
+searchBar.addEventListener("keyup", (e) => {
+  const searchString = e.target.value.toLowerCase();
+
+  const filteredProducts = productos.filter((producto) => {
+    return producto.titulo.toLowerCase().includes(searchString);
+  });
+  cargarProductos(filteredProducts);
+});
